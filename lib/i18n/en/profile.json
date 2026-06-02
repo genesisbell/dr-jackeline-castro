@@ -1,0 +1,29 @@
+{
+  "title": "Professional Profile",
+  "heading": "Training & Certifications",
+  "licenseLabel": "Medical License",
+  "specialtyLicenseLabel": "Specialty License",
+  "educationTitle": "Academic Training",
+  "awardsTitle": "Awards & Distinctions",
+  "education": [
+    {
+      "degree": "Pediatric Neurology",
+      "institution": "To be confirmed",
+      "country": "México"
+    },
+    {
+      "degree": "Pediatrics",
+      "institution": "To be confirmed",
+      "country": "México"
+    },
+    {
+      "degree": "General Medicine",
+      "institution": "To be confirmed",
+      "country": "México"
+    }
+  ],
+  "awards": [
+    "Award to be confirmed",
+    "Distinction to be confirmed"
+  ]
+}

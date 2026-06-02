@@ -1,0 +1,29 @@
+{
+  "title": "Perfil Profesional",
+  "heading": "Formación y Certificaciones",
+  "licenseLabel": "Cédula Profesional",
+  "specialtyLicenseLabel": "Cédula Especialidad",
+  "educationTitle": "Formación Académica",
+  "awardsTitle": "Premios y Distinciones",
+  "education": [
+    {
+      "degree": "Neurología Pediátrica",
+      "institution": "Por confirmar",
+      "country": "México"
+    },
+    {
+      "degree": "Pediatría",
+      "institution": "Por confirmar",
+      "country": "México"
+    },
+    {
+      "degree": "Licenciatura en Medicina General",
+      "institution": "Por confirmar",
+      "country": "México"
+    }
+  ],
+  "awards": [
+    "Premio por confirmar",
+    "Distinción por confirmar"
+  ]
+}

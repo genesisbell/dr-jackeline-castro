@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E85A9E"/>
+      <stop offset="100%" stop-color="#2BBFB0"/>
+    </linearGradient>
+    <linearGradient id="grad-ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.6)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.1)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Drop shadow -->
+  <circle cx="102" cy="103" r="94" fill="rgba(0,0,0,0.10)"/>
+
+  <!-- Main background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#grad)"/>
+
+  <!-- Decorative inner rings -->
+  <circle cx="100" cy="100" r="87" fill="none" stroke="rgba(255,255,255,0.30)" stroke-width="1.5"/>
+  <circle cx="100" cy="100" r="78" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+  <!-- Small heart — pediatric warmth -->
+  <text x="100" y="72" font-size="28" fill="rgba(255,255,255,0.92)" text-anchor="middle">♥</text>
+
+  <!-- JC monogram -->
+  <text
+    x="100" y="132"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="64"
+    font-weight="bold"
+    fill="white"
+    text-anchor="middle"
+    letter-spacing="-3"
+  >JC</text>
+
+  <!-- Specialty label -->
+  <text
+    x="100" y="159"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    font-weight="600"
+    fill="rgba(255,255,255,0.78)"
+    text-anchor="middle"
+    letter-spacing="2.5"
+  >NEURO · PED</text>
+</svg>

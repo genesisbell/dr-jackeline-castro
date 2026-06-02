@@ -1,0 +1,25 @@
+{
+  "title": "Opiniones",
+  "heading": "Lo que dicen nuestros pacientes",
+  "verified": "Cita verificada",
+  "reviews": [
+    {
+      "name": "Paciente",
+      "date": "Por confirmar",
+      "service": "Consulta Neurológica",
+      "text": "Excelente atención, muy profesional y dedicada. Nos explicó todo con claridad y paciencia."
+    },
+    {
+      "name": "Mamá de paciente",
+      "date": "Por confirmar",
+      "service": "Consulta de Primera Vez",
+      "text": "La Dra. Castro es muy empática y atenta. Nos sentimos muy bien acompañados durante todo el proceso."
+    },
+    {
+      "name": "Papá de paciente",
+      "date": "Por confirmar",
+      "service": "Consulta Neurológica",
+      "text": "Muy buena doctora, explica detalladamente el diagnóstico y el tratamiento. La recomiendo ampliamente."
+    }
+  ]
+}

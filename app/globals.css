@@ -1,26 +1,64 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ─── Brand palette ────────────────────────────────────────────────────
+   Change ONLY these 4 values to retheme the entire site.
+   All Tailwind utilities (bg-brand-*, text-brand-*) and every
+   CSS variable below update automatically.
+─────────────────────────────────────────────────────────────────────── */
+@theme {
+  --color-brand-dark:     #1A3835;
+  --color-brand-rose:     #E85A9E;
+  --color-brand-lavender: #2BBFB0;
+  --color-brand-sky:      #A8E0DC;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+/* ─── Runtime CSS variables ────────────────────────────────────────────
+   @layer base is NOT processed by Tailwind, so these are preserved.
+   They derive from the @theme tokens above — single source of truth.
+─────────────────────────────────────────────────────────────────────── */
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: var(--color-brand-dark);
+
+    /* Short aliases for component inline styles */
+    --brand-dark: var(--color-brand-dark);
+    --brand-rose: var(--color-brand-rose);
+    --brand-teal: var(--color-brand-lavender);
+    --brand-mint: var(--color-brand-sky);
+
+    /* Gradients */
+    --brand-gradient:      linear-gradient(135deg, var(--brand-rose), var(--brand-teal), var(--brand-mint));
+    --brand-gradient-h:    linear-gradient(to right,  var(--brand-rose), var(--brand-teal), var(--brand-mint));
+    --brand-gradient-2:    linear-gradient(135deg, var(--brand-rose), var(--brand-teal));
+    --brand-gradient-teal: linear-gradient(135deg, var(--brand-teal), var(--brand-mint));
+    --brand-gradient-mint: linear-gradient(135deg, var(--brand-mint), var(--brand-teal));
+
+    /* Section / hero backgrounds */
+    --brand-section-bg:   #E8F7F6;
+    --brand-hero-overlay: rgba(232, 247, 246, 0.80);
+
+    /* Pill light tints + dark text */
+    --brand-rose-bg:   #FEF2FA;
+    --brand-rose-dark: #B03A78;
+    --brand-teal-bg:   #EAF8F7;
+    --brand-teal-dark: #1A8A7E;
+    --brand-mint-bg:   #EAFAF9;
+    --brand-mint-dark: #1A7A6A;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadein {
+  animation: fadein 0.4s ease-out both;
 }

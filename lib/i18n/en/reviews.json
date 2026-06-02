@@ -1,0 +1,25 @@
+{
+  "title": "Reviews",
+  "heading": "What our patients say",
+  "verified": "Verified appointment",
+  "reviews": [
+    {
+      "name": "Patient",
+      "date": "To be confirmed",
+      "service": "Neurological Consultation",
+      "text": "Excellent care, very professional and dedicated. She explained everything clearly and patiently."
+    },
+    {
+      "name": "Patient's mother",
+      "date": "To be confirmed",
+      "service": "First Visit Consultation",
+      "text": "Dr. Castro is very empathetic and attentive. We felt very well supported throughout the entire process."
+    },
+    {
+      "name": "Patient's father",
+      "date": "To be confirmed",
+      "service": "Neurological Consultation",
+      "text": "Very good doctor, she explains the diagnosis and treatment in detail. I highly recommend her."
+    }
+  ]
+}
