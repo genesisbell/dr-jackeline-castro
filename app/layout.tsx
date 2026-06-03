@@ -17,7 +17,7 @@ const playfairMono = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Dra. Jackeline Castro — Neuróloga Pediátrica',
+  title: 'Dra. Jackeline Castro — Neuróloga Pediatra',
   description: 'Consultorio de Neurología Pediátrica de la Dra. Jackeline Castro.',
 };
 

@@ -4,6 +4,21 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { useLanguage } from "@/contexts/LanguageContext";
 
+const PILLAR_ICONS = [
+  /* flask / science */
+  <svg key="science" className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v7.5L6.5 16A4 4 0 0010 21h4a4 4 0 003.5-5.5L15 10.5V3M9 3h6M9 3H7m8 0h2" />
+  </svg>,
+  /* heart / empathy */
+  <svg key="empathy" className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+  </svg>,
+  /* check-circle / diagnosis */
+  <svg key="diagnosis" className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>,
+];
+
 export default function AboutSection() {
   const { t } = useLanguage();
   const sectionRef = useRef<HTMLElement>(null);
@@ -27,7 +42,7 @@ export default function AboutSection() {
       {/* Background image */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/background.jpg"
+          src="/background.png"
           alt=""
           fill
           className="object-cover"
@@ -38,11 +53,11 @@ export default function AboutSection() {
       </div>
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-10 lg:pb-0">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-16 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-stretch">
 
-          {/* Image — slides in from the left */}
+          {/* Doctor image — slides in from the left */}
           <div
-            className="relative hidden lg:flex justify-center transition-all duration-700 ease-out -my-12"
+            className="relative hidden lg:flex justify-center transition-all duration-700 ease-out"
             style={{
               opacity: visible ? 1 : 0,
               transform: visible ? "translateX(0)" : "translateX(-60px)",
@@ -53,7 +68,7 @@ export default function AboutSection() {
                 src="/doctor.png"
                 alt={t.common.doctorName}
                 fill
-                className="object-cover object-top"
+                className="object-cover object-top rounded-2xl"
                 sizes="25vw"
               />
             </div>
@@ -73,7 +88,7 @@ export default function AboutSection() {
                 src="/doctor.png"
                 alt={t.common.doctorName}
                 fill
-                className="object-contain object-top"
+                className="object-contain object-top rounded-2xl"
               />
             </div>
           </div>
@@ -87,7 +102,7 @@ export default function AboutSection() {
             }}
           >
             <div
-              className="rounded-2xl bg-white/30 backdrop-blur-xs border border-white/40 shadow-sm px-6 py-5 flex flex-col gap-4 text-gray-700 text-base leading-relaxed"
+              className="rounded-2xl bg-white/30 border border-white/40 shadow-sm px-6 py-5 flex flex-col gap-4 text-gray-700 text-base leading-relaxed"
               style={{ backdropFilter: 'blur(3px)' }}
             >
               {/* Name & credential */}
@@ -101,12 +116,32 @@ export default function AboutSection() {
               {/* Gradient divider */}
               <div className="w-16 h-1 rounded-full" style={{ background: 'var(--brand-gradient-h)' }} />
 
-              {/* Bio paragraphs */}
+              {/* Intro bio */}
               <p className="text-justify">{t.about.bio1}</p>
-              <p className="text-justify">{t.about.bio2}</p>
+
+              {/* Three pillars */}
+              <div>
+                <p className="text-sm font-semibold text-brand-dark mb-3">{t.about.pillarsTitle}</p>
+                <ul className="flex flex-col gap-2">
+                  {t.about.pillars.map((pillar, i) => (
+                    <li key={i} className="flex items-center gap-3">
+                      <span
+                        className="w-7 h-7 rounded-full flex items-center justify-center shrink-0 text-white"
+                        style={{ background: 'var(--brand-gradient-2)' }}
+                      >
+                        {PILLAR_ICONS[i]}
+                      </span>
+                      <span className="text-sm font-medium text-brand-dark">{pillar}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Closing bio */}
+              <p className="text-justify text-sm">{t.about.bio2}</p>
 
               {/* Buttons */}
-              <div className="mt-2 flex flex-wrap gap-3">
+              <div className="mt-1 flex flex-wrap gap-3">
                 <a
                   href="https://wa.me/52XXXXXXXXXX"
                   target="_blank"

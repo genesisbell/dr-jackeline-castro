@@ -1,8 +1,13 @@
 {
   "title": "Sobre Mí",
-  "credentials": "Neuróloga Pediátrica",
-  "bio1": "Neuróloga pediátrica con formación especializada en el diagnóstico y tratamiento de enfermedades neurológicas en niños y adolescentes. Comprometida con brindar atención de calidad, cercana y personalizada a cada paciente y su familia.",
-  "bio2": "Mi consulta ofrece una evaluación neurológica completa, con explicaciones claras y acompañamiento cercano a cada familia.",
-  "bio3": "",
+  "credentials": "Neuróloga Pediatra",
+  "bio1": "Soy médica especialista en Neurología Pediátrica, con formación en uno de los centros más importantes del país y con enfoque en neurofisiología clínica.",
+  "pillarsTitle": "Mi práctica se basa en tres pilares:",
+  "pillars": [
+    "Ciencia sólida y actualizada",
+    "Empatía con el paciente y su familia",
+    "Diagnóstico neurológico preciso"
+  ],
+  "bio2": "Trabajo con niñas, niños y adolescentes con condiciones neurológicas, buscando siempre un manejo integral y humano.",
   "whatsapp": "Agendar por WhatsApp"
 }

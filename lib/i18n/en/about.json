@@ -1,8 +1,13 @@
 {
   "title": "About Me",
   "credentials": "Pediatric Neurologist",
-  "bio1": "Pediatric neurologist with specialized training in the diagnosis and treatment of neurological conditions in children and adolescents. Committed to providing quality, compassionate, and personalized care to each patient and their family.",
-  "bio2": "My practice offers comprehensive neurological evaluations, with clear explanations and close support for every family.",
-  "bio3": "",
+  "bio1": "I am a specialist in Pediatric Neurology, trained at one of the most important medical centers in the country, with a focus on clinical neurophysiology.",
+  "pillarsTitle": "My practice is built on three pillars:",
+  "pillars": [
+    "Solid, up-to-date science",
+    "Empathy with the patient and their family",
+    "Precise neurological diagnosis"
+  ],
+  "bio2": "I work with children and adolescents with neurological conditions, always seeking comprehensive and compassionate care.",
   "whatsapp": "Book via WhatsApp"
 }
