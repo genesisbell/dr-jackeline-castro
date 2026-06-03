@@ -3,14 +3,15 @@
   "showMore": "Ver más",
   "showLess": "Ver menos",
   "heading": "Enfermedades Tratadas",
-  "pricingTitle": "Servicios y Precios",
-  "pricing": [
-    { "name": "Consulta en línea", "price": "Por confirmar" },
-    { "name": "Consulta Neurológica", "price": "Por confirmar" },
-    { "name": "Pesquisa de trastornos del neurodesarrollo", "price": "Por confirmar" },
-    { "name": "Tratamiento para cefalea", "price": "Por confirmar" },
-    { "name": "Consulta de Primera Vez y Subsecuente", "price": "Por confirmar" },
-    { "name": "Seguimiento del neurodesarrollo", "price": "Por confirmar" }
+  "servicesTitle": "Servicios",
+  "services": [
+    "Valoración neurológica pediátrica",
+    "Crisis epilépticas y epilepsia",
+    "Trastornos del neurodesarrollo (TEA, TDAH, retraso del desarrollo)",
+    "Cefalea (migraña, cefalea tensional)",
+    "Trastornos del sueño",
+    "Evaluación de alteraciones en electroencefalograma",
+    "Seguimiento neurológico integral"
   ],
   "conditions": [
     "Encefalitis",

@@ -56,9 +56,9 @@ export default function Navbar() {
           {/* Right actions */}
           <div className="flex items-center gap-2 shrink-0">
             <a
-              href="tel:+52XXXXXXXXXX"
+              href="tel:+529994132339"
               className="flex items-center gap-2 rounded-full text-sm font-semibold text-white shadow-md hover:shadow-lg transition-shadow duration-200 p-2.5 md:px-5 md:py-2.5"
-              style={{ background: 'var(--brand-gradient)' }}
+              style={{ background: 'var(--color-brand-lavender)' }}
               aria-label={t.nav.callNow}
             >
               <PhoneIcon />

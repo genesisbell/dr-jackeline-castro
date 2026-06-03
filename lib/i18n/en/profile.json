@@ -3,8 +3,10 @@
   "heading": "Training & Certifications",
   "licenseLabel": "Medical License",
   "specialtyLicenseLabel": "Specialty License",
+  "subSpecialtyLicenseLabel": "Sub Specialty License",
   "educationTitle": "Academic Training",
-  "awardsTitle": "Awards & Distinctions",
+  "certificationsTitle": "Certifications",
+  "certificationStatus": "Valid certificate",
   "education": [
     {
       "degree": "Pediatric Neurology",
@@ -22,8 +24,8 @@
       "country": "México"
     }
   ],
-  "awards": [
-    "Award to be confirmed",
-    "Distinction to be confirmed"
+  "certifications": [
+    "Consejo Mexicano de Certificación en Pediatría A.C.",
+    "Consejo Mexicano de Neurología, A.C."
   ]
 }

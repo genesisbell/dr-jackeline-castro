@@ -114,7 +114,7 @@ export default function AboutSection() {
               </div>
 
               {/* Gradient divider */}
-              <div className="w-16 h-1 rounded-full" style={{ background: 'var(--brand-gradient-h)' }} />
+              <div className="w-16 h-1 rounded-full bg-brand-lavender" />
 
               {/* Intro bio */}
               <p className="text-justify">{t.about.bio1}</p>
@@ -127,7 +127,7 @@ export default function AboutSection() {
                     <li key={i} className="flex items-center gap-3">
                       <span
                         className="w-7 h-7 rounded-full flex items-center justify-center shrink-0 text-white"
-                        style={{ background: 'var(--brand-gradient-2)' }}
+                        style={{ background: 'var(--color-brand-lavender)' }}
                       >
                         {PILLAR_ICONS[i]}
                       </span>
@@ -143,7 +143,7 @@ export default function AboutSection() {
               {/* Buttons */}
               <div className="mt-1 flex flex-wrap gap-3">
                 <a
-                  href="https://wa.me/52XXXXXXXXXX"
+                  href="https://wa.me/529994132339"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:shadow-lg transition-shadow duration-200"
@@ -153,9 +153,9 @@ export default function AboutSection() {
                   {t.about.whatsapp}
                 </a>
                 <a
-                  href="tel:+52XXXXXXXXXX"
+                  href="tel:+529994132339"
                   className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:shadow-lg transition-shadow duration-200"
-                  style={{ background: 'var(--brand-gradient)' }}
+                  style={{ background: 'var(--color-brand-lavender)' }}
                 >
                   <PhoneIcon />
                   {t.nav.callNow}

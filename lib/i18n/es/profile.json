@@ -3,8 +3,10 @@
   "heading": "Formación y Certificaciones",
   "licenseLabel": "Cédula Profesional",
   "specialtyLicenseLabel": "Cédula Especialidad",
+  "subSpecialtyLicenseLabel": "Cédula Sub Especialidad",
   "educationTitle": "Formación Académica",
-  "awardsTitle": "Premios y Distinciones",
+  "certificationsTitle": "Certificaciones",
+  "certificationStatus": "Certificado vigente",
   "education": [
     {
       "degree": "Neurología Pediátrica",
@@ -22,8 +24,8 @@
       "country": "México"
     }
   ],
-  "awards": [
-    "Premio por confirmar",
-    "Distinción por confirmar"
+  "certifications": [
+    "Consejo Mexicano de Certificación en Pediatría A.C.",
+    "Consejo Mexicano de Neurología, A.C."
   ]
 }

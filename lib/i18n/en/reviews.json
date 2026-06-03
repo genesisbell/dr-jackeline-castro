@@ -4,22 +4,34 @@
   "verified": "Verified appointment",
   "reviews": [
     {
-      "name": "Patient",
-      "date": "To be confirmed",
-      "service": "Neurological Consultation",
-      "text": "Excellent care, very professional and dedicated. She explained everything clearly and patiently."
+      "name": "Verónica R.",
+      "date": "June 3, 2026",
+      "service": "First Visit Pediatric Neurology",
+      "text": "Excellent care. We greatly valued the thorough explanation given by the doctor."
     },
     {
-      "name": "Patient's mother",
-      "date": "To be confirmed",
-      "service": "First Visit Consultation",
-      "text": "Dr. Castro is very empathetic and attentive. We felt very well supported throughout the entire process."
+      "name": "David M.",
+      "date": "May 24, 2026",
+      "service": "First Visit Pediatric Neurology",
+      "text": "Excellent!!! I loved how she explained everything, and my daughter loved the giant duck! She has a wonderfully kind personality, gentle with children and incredibly patient. She has a true vocation and an incredibly extensive knowledge of the subject — you can tell she knows a great deal, and the difference compared to other neurologists we've seen is striking. She provides solutions and always looks out for the well-being of the patient and their family."
     },
     {
-      "name": "Patient's father",
-      "date": "To be confirmed",
-      "service": "Neurological Consultation",
-      "text": "Very good doctor, she explains the diagnosis and treatment in detail. I highly recommend her."
+      "name": "Abigail A.",
+      "date": "May 15, 2026",
+      "service": "First Visit Pediatric Neurology",
+      "text": "Excellent doctor — she explains everything, provides support, and above all looks out for the well-being of the child and the parents."
+    },
+    {
+      "name": "Antonio V.",
+      "date": "May 2, 2026",
+      "service": "First Visit Pediatric Neurology",
+      "text": "Thank you to the doctor for looking beyond the symptoms. For treating every child with patience, gentleness, and a smile that brings calm. The way she explains, supports, and gets every diagnosis right makes a huge difference. And yes… that enormous, very special duck is just a reflection of what she conveys: warmth, joy, and trust. Thank you for your beautiful vocation and for caring with your heart."
+    },
+    {
+      "name": "Ximena's mom",
+      "date": "May 2, 2026",
+      "service": "First Visit Pediatric Neurology",
+      "text": "After consulting with several neurologists without finding a solution, Dr. Jackeline provided comprehensive and accurate pediatric and neurological management. She diagnosed correctly and, thanks to her treatment, my daughter no longer has headaches. We truly feel fortunate to have found her. Highly recommended."
     }
   ]
 }

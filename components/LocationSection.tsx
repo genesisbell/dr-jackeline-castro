@@ -4,10 +4,10 @@ import { useEffect, useRef, useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 const MAP_EMBED_URL =
-  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.6!2d-103.3850!3d20.6737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae2a4a8b0001%3A0x1!2sGuadalajara%2C+Jalisco%2C+M%C3%A9xico!5e0!3m2!1ses!2smx!4v1700000000000!5m2!1ses!2smx';
+  'https://maps.google.com/maps?q=Providencia+717,+Del+Valle+Centro,+Benito+Juarez,+03103+Ciudad+de+Mexico,+CDMX&t=&z=16&ie=UTF8&iwloc=&output=embed';
 
 const MAPS_LINK =
-  'https://www.google.com/maps/search/?api=1&query=Guadalajara%2C+Jalisco%2C+M%C3%A9xico';
+  'https://www.google.com/maps/search/?api=1&query=Providencia+717,+Del+Valle+Centro,+Benito+Juárez,+03103+Ciudad+de+México,+CDMX';
 
 export default function LocationSection() {
   const { t } = useLanguage();
@@ -43,7 +43,7 @@ export default function LocationSection() {
           <h2 className="mt-2 text-3xl sm:text-4xl font-bold text-brand-dark">
             {t.footer.locationHeading}
           </h2>
-          <div className="mx-auto mt-4 w-16 h-1 rounded-full" style={{ background: 'var(--brand-gradient-h)' }} />
+          <div className="mx-auto mt-4 w-16 h-1 rounded-full bg-brand-lavender" />
         </div>
 
         {/* Map + info */}
@@ -77,7 +77,7 @@ export default function LocationSection() {
               <div className="flex gap-4">
                 <div
                   className="shrink-0 w-10 h-10 rounded-full flex items-center justify-center"
-                  style={{ background: 'var(--brand-gradient-2)' }}
+                  style={{ background: 'var(--color-brand-rose)' }}
                 >
                   <PinIcon />
                 </div>
@@ -93,7 +93,7 @@ export default function LocationSection() {
               <div className="flex gap-4">
                 <div
                   className="shrink-0 w-10 h-10 rounded-full flex items-center justify-center"
-                  style={{ background: 'var(--brand-gradient-teal)' }}
+                  style={{ background: 'var(--color-brand-lavender)' }}
                 >
                   <PhoneIcon />
                 </div>
@@ -102,10 +102,10 @@ export default function LocationSection() {
                     {t.footer.phone}
                   </p>
                   <a
-                    href="tel:+52XXXXXXXXXX"
+                    href="tel:+529994132339"
                     className="text-sm text-gray-600 hover:text-brand-lavender transition-colors duration-200"
                   >
-                    Por confirmar
+                    999 413 2339
                   </a>
                 </div>
               </div>
@@ -114,7 +114,7 @@ export default function LocationSection() {
               <div className="flex gap-4">
                 <div
                   className="shrink-0 w-10 h-10 rounded-full flex items-center justify-center"
-                  style={{ background: 'var(--brand-gradient-mint)' }}
+                  style={{ background: 'var(--color-brand-sky)' }}
                 >
                   <EmailIcon />
                 </div>
@@ -123,10 +123,10 @@ export default function LocationSection() {
                     Email
                   </p>
                   <a
-                    href="mailto:dra.jackelinecastro@gmail.com"
+                    href="mailto:jackicastro10@gmail.com"
                     className="text-sm text-gray-600 hover:text-brand-lavender transition-colors duration-200"
                   >
-                    dra.jackelinecastro@gmail.com
+                    jackicastro10@gmail.com
                   </a>
                 </div>
               </div>
@@ -137,7 +137,7 @@ export default function LocationSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-2 flex items-center justify-center gap-2 rounded-full py-3 text-sm font-semibold text-white shadow-md hover:shadow-lg transition-shadow duration-200"
-                style={{ background: 'var(--brand-gradient)' }}
+                style={{ background: 'var(--color-brand-lavender)' }}
               >
                 <PinIcon />
                 {t.footer.getDirections}

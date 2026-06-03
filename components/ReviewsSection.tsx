@@ -53,7 +53,7 @@ export default function ReviewsSection() {
           <h2 className="mt-2 text-3xl sm:text-4xl font-bold text-brand-dark">
             {t.reviews.heading}
           </h2>
-          <div className="mx-auto mt-4 w-16 h-1 rounded-full" style={{ background: 'var(--brand-gradient-h)' }} />
+          <div className="mx-auto mt-4 w-16 h-1 rounded-full bg-brand-lavender" />
         </div>
 
         {/* Card */}
@@ -126,7 +126,7 @@ export default function ReviewsSection() {
                   style={{
                     width: i === current ? '24px' : '8px',
                     height: '8px',
-                    background: i === current ? 'var(--brand-gradient-2)' : '#D1D5DB',
+                    background: i === current ? 'var(--color-brand-lavender)' : '#D1D5DB',
                   }}
                 />
               ))}

@@ -3,14 +3,15 @@
   "showMore": "See more",
   "showLess": "See less",
   "heading": "Conditions Treated",
-  "pricingTitle": "Services & Pricing",
-  "pricing": [
-    { "name": "Online Consultation", "price": "To be confirmed" },
-    { "name": "Neurological Consultation", "price": "To be confirmed" },
-    { "name": "Neurodevelopmental Disorder Screening", "price": "To be confirmed" },
-    { "name": "Headache Treatment", "price": "To be confirmed" },
-    { "name": "First Visit and Follow-up Consultation", "price": "To be confirmed" },
-    { "name": "Neurodevelopmental Follow-up", "price": "To be confirmed" }
+  "servicesTitle": "Services",
+  "services": [
+    "Pediatric neurological evaluation",
+    "Epileptic seizures and epilepsy",
+    "Neurodevelopmental disorders (ASD, ADHD, developmental delay)",
+    "Headache (migraine, tension headache)",
+    "Sleep disorders",
+    "Evaluation of electroencephalogram abnormalities",
+    "Comprehensive neurological follow-up"
   ],
   "conditions": [
     "Encephalitis",

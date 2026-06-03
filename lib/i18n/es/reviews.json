@@ -4,22 +4,34 @@
   "verified": "Cita verificada",
   "reviews": [
     {
-      "name": "Paciente",
-      "date": "Por confirmar",
-      "service": "Consulta Neurológica",
-      "text": "Excelente atención, muy profesional y dedicada. Nos explicó todo con claridad y paciencia."
+      "name": "Verónica R.",
+      "date": "3 de junio de 2026",
+      "service": "Primera Cita Neurología Infantil",
+      "text": "Excelente atención. De gran valor la explicación que nos dio la Dra."
     },
     {
-      "name": "Mamá de paciente",
-      "date": "Por confirmar",
-      "service": "Consulta de Primera Vez",
-      "text": "La Dra. Castro es muy empática y atenta. Nos sentimos muy bien acompañados durante todo el proceso."
+      "name": "David M.",
+      "date": "24 de mayo de 2026",
+      "service": "Primera Cita Neurología Infantil",
+      "text": "Excelente!!! Me encantó como explicó todo, y mi niña amó al pato gigante! Tiene una personalidad super noble, amable con los niños y encima súper paciente, tiene vocación y tiene un amplio y muy extenso conocimiento sobre el tema, se nota que sabe muchísimo y se ve la diferencia extrema con otros neurólogos a los que hemos acudido. Ella da soluciones y siempre busca el bienestar del paciente y su familia."
     },
     {
-      "name": "Papá de paciente",
-      "date": "Por confirmar",
-      "service": "Consulta Neurológica",
-      "text": "Muy buena doctora, explica detalladamente el diagnóstico y el tratamiento. La recomiendo ampliamente."
+      "name": "Abigail A.",
+      "date": "15 de mayo de 2026",
+      "service": "Primera Cita Neurología Infantil",
+      "text": "Excelente doctora, explica todo, te brinda ayuda y sobre todo ve por el bien del niño y los papás."
+    },
+    {
+      "name": "Antonio V.",
+      "date": "2 de mayo de 2026",
+      "service": "Primera Cita Neurología Infantil",
+      "text": "Gracias a la doctora por ver más allá de los síntomas. Por tratar a cada niño con paciencia, dulzura y una sonrisa que da tranquilidad. Su forma de explicar, de acompañar y de acertar en cada diagnóstico hace una gran diferencia. Y sí… ese pato enorme tan especial es solo un reflejo de lo que ella transmite: cercanía, alegría y confianza. Gracias por su vocación tan bonita y por cuidar con el corazón."
+    },
+    {
+      "name": "Mamá de Ximena",
+      "date": "2 de mayo de 2026",
+      "service": "Primera Cita Neurología Infantil",
+      "text": "Después de consultar con varios neurólogos sin encontrar solución, la Dra. Jackeline brindó un manejo pediátrico y neurológico integral y acertado. Diagnosticó acertadamente y, gracias a su tratamiento, mi niña ya no tiene dolor de cabeza. De verdad nos sentimos afortunados de haberla conocido. Totalmente recomendable."
     }
   ]
 }
