@@ -141,12 +141,12 @@ export default function AboutSection() {
               <p className="text-justify text-sm">{t.about.bio2}</p>
 
               {/* Buttons */}
-              <div className="mt-1 flex flex-wrap gap-3">
+              <div className="mt-1 flex flex-col sm:flex-row gap-2">
                 <a
                   href="https://wa.me/529994132339"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:shadow-lg transition-shadow duration-200"
+                  className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold text-white shadow-md hover:shadow-lg transition-shadow duration-200"
                   style={{ background: '#25D366' }}
                 >
                   <WhatsAppIcon />
@@ -154,11 +154,21 @@ export default function AboutSection() {
                 </a>
                 <a
                   href="tel:+529994132339"
-                  className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:shadow-lg transition-shadow duration-200"
+                  className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold text-white shadow-md hover:shadow-lg transition-shadow duration-200"
                   style={{ background: 'var(--color-brand-lavender)' }}
                 >
                   <PhoneIcon />
                   {t.nav.callNow}
+                </a>
+                <a
+                  href="https://www.doctoralia.com.mx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold text-white shadow-md hover:shadow-lg transition-shadow duration-200"
+                  style={{ background: '#00A19B' }}
+                >
+                  <Image src="/doctoralia.png" alt="Doctoralia" width={16} height={16} className="shrink-0 brightness-0 invert" />
+                  {t.about.scheduleAppointment}
                 </a>
               </div>
             </div>

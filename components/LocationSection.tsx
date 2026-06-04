@@ -85,7 +85,12 @@ export default function LocationSection() {
                   <p className="text-xs font-semibold uppercase tracking-widest text-brand-lavender mb-1">
                     {t.footer.locationTitle}
                   </p>
-                  <p className="text-sm text-gray-600 leading-relaxed">{t.footer.address}</p>
+                  <a
+                    href={MAPS_LINK}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-gray-600 hover:text-brand-lavender transition-colors duration-200 leading-relaxed"
+                  >{t.footer.address}</a>
                 </div>
               </div>
 

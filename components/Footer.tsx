@@ -71,10 +71,15 @@ export default function Footer() {
                 <EmailIcon />
                 jackicastro10@gmail.com
               </a>
-              <div className="flex items-start gap-2.5">
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Providencia+717,+Del+Valle+Centro,+Benito+Juárez,+03103+Ciudad+de+México,+CDMX"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-2.5 hover:text-brand-sky transition-colors duration-200"
+              >
                 <LocationIcon />
                 <span>{t.footer.address}</span>
-              </div>
+              </a>
             </div>
           </div>
 
