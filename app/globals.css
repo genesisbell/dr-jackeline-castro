@@ -6,10 +6,10 @@
    CSS variable below update automatically.
 ─────────────────────────────────────────────────────────────────────── */
 @theme {
-  --color-brand-dark:     #1A3835;
-  --color-brand-rose:     #E85A9E;
-  --color-brand-lavender: #2BBFB0;
-  --color-brand-sky:      #A8E0DC;
+  --color-brand-dark:     #3D3570;   /* dark purple   */
+  --color-brand-rose:     #E870A8;   /* soft pink     */
+  --color-brand-lavender: #7B68B5;   /* medium purple — PRIMARY */
+  --color-brand-sky:      #2CBFB0;   /* teal          — SECONDARY */
 }
 
 /* ─── Runtime CSS variables ────────────────────────────────────────────
@@ -35,16 +35,16 @@
     --brand-gradient-mint: linear-gradient(135deg, var(--brand-mint), var(--brand-teal));
 
     /* Section / hero backgrounds */
-    --brand-section-bg:   #E8F7F6;
-    --brand-hero-overlay: rgba(232, 247, 246, 0.80);
+    --brand-section-bg:   #EDE8FF;
+    --brand-hero-overlay: rgba(237, 232, 255, 0.80);
 
     /* Pill light tints + dark text */
-    --brand-rose-bg:   #FEF2FA;
-    --brand-rose-dark: #B03A78;
-    --brand-teal-bg:   #EAF8F7;
-    --brand-teal-dark: #1A8A7E;
-    --brand-mint-bg:   #EAFAF9;
-    --brand-mint-dark: #1A7A6A;
+    --brand-rose-bg:   #FEF0F8;
+    --brand-rose-dark: #A03070;
+    --brand-teal-bg:   #EDE8FF;
+    --brand-teal-dark: #5A4A95;
+    --brand-mint-bg:   #EAF8F7;
+    --brand-mint-dark: #1A8A7E;
   }
 
   body {

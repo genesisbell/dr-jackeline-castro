@@ -65,7 +65,7 @@ export default function ProfileSection() {
             <ul className="flex flex-col gap-4">
               {t.profile.education.map((item, i) => (
                 <li key={i} className="flex items-start gap-4 bg-white rounded-2xl px-5 py-4 border border-gray-100 shadow-sm">
-                  <div className="shrink-0 w-9 h-9 rounded-full bg-brand-lavender flex items-center justify-center">
+                  <div className="shrink-0 w-9 h-9 rounded-full bg-brand-sky flex items-center justify-center">
                     <GraduationCardIcon />
                   </div>
                   <div>
@@ -90,7 +90,7 @@ export default function ProfileSection() {
             <ul className="flex flex-col gap-4">
               {t.profile.certifications.map((cert, i) => (
                 <li key={i} className="flex items-start gap-4 bg-white rounded-2xl px-5 py-4 border border-gray-100 shadow-sm">
-                  <div className="shrink-0 w-9 h-9 rounded-full bg-brand-lavender flex items-center justify-center">
+                  <div className="shrink-0 w-9 h-9 rounded-full bg-brand-sky flex items-center justify-center">
                     <CheckIcon />
                   </div>
                   <div>
@@ -114,7 +114,7 @@ export default function ProfileSection() {
 function LicenseCard({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex items-center gap-4 bg-white rounded-2xl px-6 py-4 shadow-sm border border-gray-100">
-      <div className="w-10 h-10 rounded-full flex items-center justify-center shrink-0 bg-brand-lavender">
+      <div className="w-10 h-10 rounded-full flex items-center justify-center shrink-0 bg-brand-sky">
         <IdIcon />
       </div>
       <div>

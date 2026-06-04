@@ -110,11 +110,11 @@ export default function AboutSection() {
                 <h2 className="text-3xl sm:text-4xl font-bold text-brand-dark leading-tight">
                   {t.common.doctorName}
                 </h2>
-                <p className="mt-1 text-brand-lavender font-medium">{t.about.credentials}</p>
+                <p className="mt-1 text-brand-rose font-medium">{t.about.credentials}</p>
               </div>
 
               {/* Gradient divider */}
-              <div className="w-16 h-1 rounded-full bg-brand-lavender" />
+              <div className="w-16 h-1 rounded-full bg-brand-sky" />
 
               {/* Intro bio */}
               <p className="text-justify">{t.about.bio1}</p>
@@ -127,7 +127,7 @@ export default function AboutSection() {
                     <li key={i} className="flex items-center gap-3">
                       <span
                         className="w-7 h-7 rounded-full flex items-center justify-center shrink-0 text-white"
-                        style={{ background: 'var(--color-brand-lavender)' }}
+                        style={{ background: 'var(--color-brand-sky)' }}
                       >
                         {PILLAR_ICONS[i]}
                       </span>
