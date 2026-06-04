@@ -22,21 +22,14 @@ export default function Navbar() {
         <div className="flex h-20 items-center justify-between gap-4">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 shrink-0">
+          <Link href="/" className="shrink-0">
             <Image
               src="/logo.svg"
               alt="Dra. Jackeline Castro"
-              width={52}
-              height={52}
-              className="rounded-full"
+              width={220}
+              height={47}
               priority
             />
-            <div>
-              <p className="font-semibold text-brand-dark text-sm leading-tight">
-                {t.common.doctorName}
-              </p>
-              <p className="text-brand-lavender text-xs">{t.common.specialty}</p>
-            </div>
           </Link>
 
           {/* Desktop nav links */}

@@ -22,21 +22,13 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="flex flex-col gap-4">
-            <div className="flex items-center gap-3">
-              <Image
-                src="/logo.svg"
-                alt="Dra. Jackeline Castro"
-                width={64}
-                height={64}
-                className="rounded-full opacity-90"
-              />
-              <div>
-                <p className="font-semibold text-lg leading-tight text-white">
-                  {t.common.doctorName}
-                </p>
-                <p className="text-brand-sky text-sm">{t.common.specialty}</p>
-              </div>
-            </div>
+            <Image
+              src="/logo-light.svg"
+              alt="Dra. Jackeline Castro"
+              width={220}
+              height={47}
+              className="opacity-90"
+            />
             <p className="text-gray-300 text-sm leading-relaxed">{t.footer.tagline}</p>
           </div>
 
@@ -136,7 +128,7 @@ export default function Footer() {
           </p>
           <button
             onClick={toggleLocale}
-            className="text-xs font-semibold text-brand-lavender border border-brand-lavender rounded-full px-3 py-1.5 hover:bg-brand-lavender hover:text-white transition-colors duration-200 cursor-pointer"
+            className="hidden text-xs font-semibold text-brand-lavender border border-brand-lavender rounded-full px-3 py-1.5 hover:bg-brand-lavender hover:text-white transition-colors duration-200 cursor-pointer"
           >
             {locale === 'en' ? 'Español' : 'English'}
           </button>
