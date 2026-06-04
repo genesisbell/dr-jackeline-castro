@@ -161,7 +161,7 @@ export default function AboutSection() {
                   {t.nav.callNow}
                 </a>
                 <a
-                  href="https://www.doctoralia.com.mx"
+                  href="https://www.doctoralia.com.mx/jackeline-castro-canto/pediatra-neurologo-pediatra/ciudad-de-mexico"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold text-white shadow-md hover:shadow-lg transition-shadow duration-200"

@@ -108,7 +108,7 @@ export default function Footer() {
                 Facebook
               </a>
               <a
-                href="https://www.doctoralia.com.mx"
+                href="https://www.doctoralia.com.mx/jackeline-castro-canto/pediatra-neurologo-pediatra/ciudad-de-mexico"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2.5 text-sm text-gray-300 transition-colors duration-200 hover:[color:#00A19B]"
