@@ -53,25 +53,24 @@ export default function AboutSection() {
       </div>
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-10 lg:pb-0">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
 
           {/* Doctor image — slides in from the left */}
           <div
-            className="relative hidden lg:flex justify-center transition-all duration-700 ease-out"
+            className="relative hidden lg:block transition-all duration-700 ease-out"
             style={{
+              height: '70vh',
               opacity: visible ? 1 : 0,
               transform: visible ? "translateX(0)" : "translateX(-60px)",
             }}
           >
-            <div className="relative w-full h-full">
-              <Image
-                src="/doctor.png"
-                alt={t.common.doctorName}
-                fill
-                className="object-cover object-top rounded-2xl"
-                sizes="25vw"
-              />
-            </div>
+            <Image
+              src="/doctor.png"
+              alt={t.common.doctorName}
+              fill
+              className="object-contain object-top rounded-2xl"
+              sizes="50vw"
+            />
           </div>
 
           {/* Mobile image */}
