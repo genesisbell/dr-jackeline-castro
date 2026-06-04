@@ -57,9 +57,8 @@ export default function AboutSection() {
 
           {/* Doctor image — slides in from the left */}
           <div
-            className="relative hidden lg:block transition-all duration-700 ease-out"
+            className="relative hidden lg:block aspect-square transition-all duration-700 ease-out"
             style={{
-              height: '70vh',
               opacity: visible ? 1 : 0,
               transform: visible ? "translateX(0)" : "translateX(-60px)",
             }}
@@ -68,33 +67,34 @@ export default function AboutSection() {
               src="/doctor.png"
               alt={t.common.doctorName}
               fill
-              className="object-contain object-top rounded-2xl"
+              className="object-contain rounded-2xl"
               sizes="50vw"
             />
           </div>
 
           {/* Mobile image */}
           <div
-            className="lg:hidden overflow-hidden transition-all duration-700 ease-out"
+            className="lg:hidden transition-all duration-700 ease-out relative z-10"
             style={{
-              height: '45vh',
+              height: '50vh',
+              marginBottom: '-2.5rem',
               opacity: visible ? 1 : 0,
               transform: visible ? "translateX(0)" : "translateX(-60px)",
             }}
           >
-            <div className="relative w-full" style={{ height: '58vh' }}>
+            <div className="relative w-full h-full">
               <Image
                 src="/doctor.png"
                 alt={t.common.doctorName}
                 fill
-                className="object-contain object-top rounded-2xl"
+                className="object-contain object-bottom rounded-2xl"
               />
             </div>
           </div>
 
           {/* Text — slides in from the right */}
           <div
-            className="flex flex-col gap-6 transition-all duration-700 ease-out delay-150"
+            className="flex flex-col gap-6 transition-all duration-700 ease-out delay-150 relative"
             style={{
               opacity: visible ? 1 : 0,
               transform: visible ? "translateX(0)" : "translateX(60px)",
