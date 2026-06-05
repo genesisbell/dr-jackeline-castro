@@ -1,14 +1,10 @@
 {
   "title": "About Me",
   "credentials": "Pediatric Neurologist",
-  "bio1": "I am a specialist in Pediatric Neurology, trained at one of the most important medical centers in the country, with a focus on clinical neurophysiology.",
-  "pillarsTitle": "My practice is built on three pillars:",
-  "pillars": [
-    "Solid, up-to-date science",
-    "Empathy with the patient and their family",
-    "Precise neurological diagnosis"
-  ],
-  "bio2": "I work with children and adolescents with neurological conditions, always seeking comprehensive and compassionate care.",
+  "bio1": "I am a pediatric neurologist trained at the Hospital Infantil de México Federico Gómez, where I completed my residency in Pediatrics and fellowship in Pediatric Neurology.",
+  "bio2": "I care for babies, girls, boys, and adolescents with neurological conditions and neurodevelopmental disorders, always with a comprehensive, family-centered approach.",
+  "bio3": "With a desire to make pediatric neurology more accessible and understandable, I developed the Ruta Neuropato — a tool that complements my practice and helps families understand, support, and nurture their children's development.",
+  "bio4": "I firmly believe that every child has a unique story, strengths to discover, and an enormous potential to grow. My commitment is to accompany them with science, empathy, and closeness, because every brain has its own path and we can always find a solution.",
   "whatsapp": "Book via WhatsApp",
   "scheduleAppointment": "Book appointment"
 }

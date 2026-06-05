@@ -4,20 +4,6 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { useLanguage } from "@/contexts/LanguageContext";
 
-const PILLAR_ICONS = [
-  /* flask / science */
-  <svg key="science" className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v7.5L6.5 16A4 4 0 0010 21h4a4 4 0 003.5-5.5L15 10.5V3M9 3h6M9 3H7m8 0h2" />
-  </svg>,
-  /* heart / empathy */
-  <svg key="empathy" className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-  </svg>,
-  /* check-circle / diagnosis */
-  <svg key="diagnosis" className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-  </svg>,
-];
 
 export default function AboutSection() {
   const { t } = useLanguage();
@@ -115,29 +101,10 @@ export default function AboutSection() {
               {/* Gradient divider */}
               <div className="w-16 h-1 rounded-full bg-brand-sky" />
 
-              {/* Intro bio */}
-              <p className="text-justify">{t.about.bio1}</p>
-
-              {/* Three pillars */}
-              <div>
-                <p className="text-sm font-semibold text-brand-dark mb-3">{t.about.pillarsTitle}</p>
-                <ul className="flex flex-col gap-2">
-                  {t.about.pillars.map((pillar, i) => (
-                    <li key={i} className="flex items-center gap-3">
-                      <span
-                        className="w-7 h-7 rounded-full flex items-center justify-center shrink-0 text-white"
-                        style={{ background: 'var(--color-brand-sky)' }}
-                      >
-                        {PILLAR_ICONS[i]}
-                      </span>
-                      <span className="text-sm font-medium text-brand-dark">{pillar}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Closing bio */}
+              <p className="text-justify text-sm">{t.about.bio1}</p>
               <p className="text-justify text-sm">{t.about.bio2}</p>
+              <p className="text-justify text-sm">{t.about.bio3}</p>
+              <p className="text-justify text-sm">{t.about.bio4}</p>
 
               {/* Buttons */}
               <div className="mt-1 flex flex-col sm:flex-row gap-2">

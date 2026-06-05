@@ -1,14 +1,10 @@
 {
   "title": "Sobre Mí",
   "credentials": "Neuróloga Pediatra",
-  "bio1": "Soy médica especialista en Neurología Pediátrica, con formación en uno de los centros más importantes del país y con enfoque en neurofisiología clínica.",
-  "pillarsTitle": "Mi práctica se basa en tres pilares:",
-  "pillars": [
-    "Ciencia sólida y actualizada",
-    "Empatía con el paciente y su familia",
-    "Diagnóstico neurológico preciso"
-  ],
-  "bio2": "Trabajo con niñas, niños y adolescentes con condiciones neurológicas, buscando siempre un manejo integral y humano.",
+  "bio1": "Soy neuróloga pediatra con formación en el Hospital Infantil de México Federico Gómez, donde realicé la especialidad en Pediatría y la subespecialidad en Neurología Pediátrica.",
+  "bio2": "Atiendo a bebés, niñas, niños y adolescentes con condiciones neurológicas y trastornos del neurodesarrollo, siempre con un enfoque integral y centrado en la familia.",
+  "bio3": "Con el deseo de hacer la neurología pediátrica más cercana y comprensible, desarrollé la Ruta Neuropato, una herramienta que complementa mi consulta y ayuda a las familias a entender, acompañar y potenciar el desarrollo de sus hijos.",
+  "bio4": "Creo firmemente que cada niño tiene una historia única, fortalezas por descubrir y un enorme potencial para crecer. Mi compromiso es acompañarlos con ciencia, empatía y cercanía, porque cada cerebro tiene su propia ruta y siempre podemos encontrar una solución.",
   "whatsapp": "Agendar por WhatsApp",
   "scheduleAppointment": "Agenda tu cita"
 }
