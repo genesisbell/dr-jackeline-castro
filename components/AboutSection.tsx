@@ -101,7 +101,7 @@ export default function AboutSection() {
               {/* Gradient divider */}
               <div className="w-16 h-1 rounded-full bg-brand-sky" />
 
-              <p className="text-justify text-sm">{t.about.bio1}</p>
+              <p className="text-justify text-sm">{t.about.bio1} </p>
               <p className="text-justify text-sm">{t.about.bio2}</p>
               <p className="text-justify text-sm">{t.about.bio3}</p>
               <p className="text-justify text-sm">{t.about.bio4}</p>
